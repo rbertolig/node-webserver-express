@@ -1,0 +1,22 @@
+<!--insertar 'parciales' de hbs 
+a patir de archivos con el contenido de los mismos creados en la carpeta 'parciales'-->
+
+<!-- insertar el head -->
+{{> head }}
+
+<!-- insertar menu -->
+{{> navbar }} 
+
+<!-- Codigo de con Clase Bootstrap JUMBOTRON para dar formato encajonado y responsive -->
+<div class="row">
+<div class="col-8">
+    <h1>Ejemplo de imagen</h1>
+    <p>Esta es mi mascota! Es de raza shithzu y se llama Loki!</p>
+</div>
+<div class="col-4">
+    <img src="assets/img/foto1.jpg" alt="Ejemplo de imagen" class= "img-thumbnail">
+</div>
+</div>
+
+<!-- insertar footer -->
+{{> footer}}
